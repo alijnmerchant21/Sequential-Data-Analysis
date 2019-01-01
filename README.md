@@ -233,3 +233,8 @@ Appendix:
 Core – Refers to core contributors of open source software development.
 Periphery – Refers to contributors for patch fixing on specific software issues.
 Actors – Refers to open source software developers either core or periphery. 
+
+
+Disclaimer:
+I have done this project with Prof: Aron Lindberg.
+All the data and information was provided by him.

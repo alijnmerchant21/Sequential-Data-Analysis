@@ -44,7 +44,7 @@ Each of these have been assigned a number 0 through 7; to uniquely identify the 
 We begin with a random member to make decision on the action to be taken. Each of the member, followed is chosen randomly. 
 Let’s consider their decision-making conditions – if previous decision was taken by a core member – we use core member matrices else we make the use of periphery matrices.
 
-![](1.png)
+![](img/1.png)
  
 
 Action:
@@ -71,11 +71,11 @@ Each of their resulting output – that is the data file (which is cleaned and t
 
 Now, these lists have been demonstrated with the help of a probabilistic suffix tree.
 
-![](2.png)
+![](img/2.png)
 
 Consider the following conditions on which the tree has been pruned:
 
-![](3.png)
+![](img/3.png)
 
 
 
@@ -91,7 +91,7 @@ Consider the following conditions on which the tree has been pruned:
 
 The resulting graph which demonstrates the pruned tree on said condition is as follows:
 
-![](4.png) 
+![](img/4.png) 
 
 This graph has the maximum depth of 6. This ends the general outline part 1. Now before considering the second part of general outline lets relate to a few questions – which will help us better in analysis.
 
@@ -112,16 +112,16 @@ b.	What sequence of action has been generated. Is there a repetition to these se
 
 Consider the following sequence:
 
-![](5.png)
+![](img/5.png)
 
 We have generated a dendrogram with the cluster:
 
-![](6.png) 
+![](img/6.png) 
 
 Part 2 also consist of Cluster Quality.
 
  
-![](7.png)
+![](img/7.png)
 
 
 
@@ -146,11 +146,11 @@ Consider the 3 clusters:
 
 For cluster 1:
 
- ![](8.png)
+ ![](img/8.png)
 
 For cluster 2:
 
- ![](9.png)
+ ![](img/9.png)
 
 
 
@@ -162,19 +162,19 @@ For cluster 2:
 
 For cluster 3:
 
- ![](10.png)
+ ![](img/10.png)
 
 After calculating distance for each of the cluster respectively; Extracting sets of representative sequences and Concatenate vectors of states or events into a character string.
 
  
-![](11.png)
+![](img/11.png)
 
 
 Now we consider the top 4 sequences of each of these sequences.
 
  
 
-![](12.png)
+![](img/12.png)
 
 
 
@@ -190,13 +190,13 @@ Now we consider the top 4 sequences of each of these sequences.
 
 Now consider a combination of each of the clusters where top 4 sequence of each cluster is considered:
 
- ![](13.png)
+ ![](img/13.png)
 
 For part 3 of the general outline:
 
 Based on the cluster generated, check the distribution of frequencies across clusters.
 
- ![](14.png)
+ ![](img/14.png)
 
 
 
